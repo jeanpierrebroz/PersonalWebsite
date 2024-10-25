@@ -1,0 +1,41 @@
+html{
+    scroll-behavior: smooth;
+    background-image: url("modern-clean-white-background-free-vector.jpg");
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    text-align: center;
+}
+
+
+.headline a{
+    list-style-position: inside;
+    text-decoration: none;
+    margin-right: 10%;
+    color: black;
+    font-size: large;
+}
+
+
+a:hover{
+    color: blue;
+}
+
+.headline{
+    text-align: center; 
+}
+
+.rounded {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.abbreviated{
+    font-weight:1000;
+}
+
+
+
