@@ -20,7 +20,7 @@ body {
 .section a {
     text-decoration: none;
     color: black;
-    font-size: 1.75vw;
+    font-size: em;
 }
 
 a:hover {
@@ -29,13 +29,13 @@ a:hover {
 
 .headline {
     text-align: center; 
-    font-size: 1.25vw;
+    font-size: 1.5em;
 }
 
 .image{
 
-    height: 10%;
-    width: 10%;
+    height: 20%;
+    width: 20%;
 }
 
 .abbreviated {
@@ -74,7 +74,7 @@ a:hover {
 }
 
 .section {
-    font-size: 1.75vw;
+    font-size: 1.25em;
     padding: 0 10%; 
 }
 
@@ -86,16 +86,16 @@ a:hover {
 
 .menu {
     position: absolute; 
-    top: 0;
-    left: 0;
+    top: 0.5em;
+    left: 0.5em;
     display: inline-block;
+    min-width: 40px;
 }
 
 
 .menu > a {
     text-decoration: none;
-    padding: 1vw 2vw;
-    font-size:4vw;
+    font-size: 2.5em;
     background-color: #FCF5E5;
     color: black;
     display: block;
@@ -110,13 +110,14 @@ a:hover {
     background-color: #f9f9f9;
     box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.2);
     width: 100%;
+    font-size: 2em;
     min-width: max-content;
 }
 
 .dropdown a {
     text-decoration: none;
     display: block;
-    padding-right: 2vw; 
+    /* padding-right: 2vw;  */
     color: black;
     text-align: center; 
 }
