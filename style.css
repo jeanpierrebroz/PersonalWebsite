@@ -1,103 +1,124 @@
-html{
+html {
     scroll-behavior: smooth;
-    /* background-image: url("modern-clean-white-background-free-vector.jpg"); */
     background-color: #FCF5E5;
     font-family: 'Courier New', Courier, monospace;
 }
 
-body{
+body {
     text-align: center;
-    font-size: 2vm;
+    font-size: 2vw; 
     margin: 0;
     padding: 0;
 }
 
-
-.headline a{
+.headline a {
     text-decoration: none;
     color: black;
     font-size: 1.25vw;
-    /* padding: 0% 10%; */
 }
 
-.section a{
+.section a {
     text-decoration: none;
     color: black;
-    font-size: 1.2vw;
-
+    font-size: 1.75vw;
 }
 
-
-a:hover{
+a:hover {
     color: blue;
 }
 
-.headline{
+.headline {
     text-align: center; 
     font-size: 1.25vw;
 }
 
-.rounded {
-    /* object-fit: cover; */
-    /* border-radius: 50%; */
+.image{
+
     height: 10%;
     width: 10%;
 }
 
-.abbreviated{
-    font-weight:1000;
-    padding: 0% 10%;
+.abbreviated {
+    font-weight: 1000;
+    padding: 0 10%;
     font-size: 1.25vw;
 }
 
+.project_parent{
+    border:  dashed black;
+    margin: 5% 10%;
+    text-align: center;
+}
 
-.section h3{
+.project_parent a{
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+
+.project_parent a:hover{
+    color: blue;
+}
+
+.contact {
+    padding: 0 10%; 
+}
+
+.contact a {
+    color: darkblue;
+}
+
+.section h3 {
     text-decoration: underline;
     font-size: 2.5vw;
 }
 
 .section {
-    font-size: 1.25vw;
-    padding: 0% 10%;
+    font-size: 1.75vw;
+    padding: 0 10%; 
 }
 
-.smallimage{
-    height:0%;
+.smallimage {
+    height: 0%;
     width: 100%;
 }
 
 
 .menu {
-    position: absolute;
+    position: absolute; 
     top: 0;
     left: 0;
     display: inline-block;
-    border: 0.2vw solid black; 
 }
+
 
 .menu > a {
     text-decoration: none;
-    font-size: clamp(1rem, 2vw, 2rem);
-    padding: clamp(0.5rem, 1vw, 1.5rem) clamp(1rem, 2vw, 2rem);
+    padding: 1vw 2vw;
+    font-size: 2vw;
     background-color: #FCF5E5;
     color: black;
     display: block;
+    width: auto; 
 }
 
 .dropdown {
     display: none;
     position: absolute;
+    top: 100%; 
+    left: 0; 
     background-color: #f9f9f9;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    min-width: 10rem; /* Works well with rem scaling */
+    box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.2);
+    width: 100%;
+    min-width: max-content;
 }
 
 .dropdown a {
     text-decoration: none;
-    font-size: clamp(0.9rem, 1.5vw, 1.2rem);
-    padding: clamp(0.5rem, 1vw, 1rem);
     display: block;
+    padding-right: 2vw; 
     color: black;
+    text-align: center; 
 }
 
 .dropdown a:hover {
